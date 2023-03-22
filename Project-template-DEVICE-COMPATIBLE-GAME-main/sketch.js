@@ -20,7 +20,7 @@ function preload(){
 
 function setup(){
   
-  createCanvas(windowWidth,windowHeigth);
+  createCanvas(windowWidth,windowHeight);
 // Movendo plano de fundo
 path=createSprite(width/2,200);
 path.addImage(pathImg);
@@ -28,7 +28,7 @@ path.velocityY = 4;
 
 
 //criar menino correndo 
-boy = createSprite(width/2,heigth-20,20,20);
+boy = createSprite(width/2,height-20,20,20);
 boy.addAnimation("SahilRunning",boyImg);
 boy.scale=0.08;
   
